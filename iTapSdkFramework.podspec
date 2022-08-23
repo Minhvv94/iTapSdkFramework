@@ -9,4 +9,5 @@ Pod::Spec.new do |spec|
   spec.requires_arc    = true
   spec.source       = { :git => 'https://github.com/Minhvv94/iTapSdkFramework.git', :tag => '1.0.0' }
   spec.swift_version = '5.0'
+  spec.frameworks = 'UIKit'
 end
