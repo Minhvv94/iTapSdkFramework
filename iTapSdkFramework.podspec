@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = 'iTapSdkFramework'
   spec.module_name  = 'iTapSdkFramework'
-  spec.version      = '1.0'
+  spec.version      = '1.1'
   spec.license      = 'MIT'
   spec.homepage     = 'https://github.com/Minhvv94/iTapSdkFramework'
   spec.authors      = { 'Minhvv' => 'minhvv@vtvlive.vn' }
