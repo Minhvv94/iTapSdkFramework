@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C1D27B2928B48A9100F1ECB0 /* iTapSdkFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D27B2828B48A9100F1ECB0 /* iTapSdkFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1D27B3928B4BD5300F1ECB0 /* ItapSdk.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D27B3828B4BD5300F1ECB0 /* ItapSdk.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C1D27B2528B48A9100F1ECB0 /* iTapSdkFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iTapSdkFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D27B2828B48A9100F1ECB0 /* iTapSdkFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTapSdkFramework.h; sourceTree = "<group>"; };
+		C1D27B3728B4BD4100F1ECB0 /* ItapSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItapSdk.h; sourceTree = "<group>"; };
+		C1D27B3828B4BD5300F1ECB0 /* ItapSdk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItapSdk.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +48,9 @@
 		C1D27B2728B48A9100F1ECB0 /* iTapSdkFramework */ = {
 			isa = PBXGroup;
 			children = (
+				C1D27B3728B4BD4100F1ECB0 /* ItapSdk.h */,
 				C1D27B2828B48A9100F1ECB0 /* iTapSdkFramework.h */,
+				C1D27B3828B4BD5300F1ECB0 /* ItapSdk.m */,
 			);
 			path = iTapSdkFramework;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1D27B3928B4BD5300F1ECB0 /* ItapSdk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,13 +276,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vn.vplay.lienminhphapsu.i.iTapSdkFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -286,7 +292,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
@@ -304,13 +310,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = vn.vplay.lienminhphapsu.i.iTapSdkFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -319,7 +325,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				TVOS_DEPLOYMENT_TARGET = 11.0;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
