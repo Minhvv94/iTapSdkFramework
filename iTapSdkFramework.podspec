@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
   spec.frameworks = 'UIKit'
   spec.vendored_frameworks = 'iTapSdkFramework.xcframework'
   spec.platform = :ios, "11.0"
-  spec.source_files = "iTapSdkFramework/**/*.{h,m}"
+  spec.source_files = "iTapSdkFramework/*.{h,m,swift}"
 end
