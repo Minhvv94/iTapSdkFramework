@@ -6,7 +6,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <iTapSdkFramework/ItapSdk.h>
+
+#import <iTapSdkFramework/Sdk.h>
+#import <iTapSdkFramework/User.h>
+#import <iTapSdkFramework/TransactionInfo.h>
+#import <iTapSdkFramework/AppInfo.h>
 //! Project version number for iTapSdkFramework.
 FOUNDATION_EXPORT double iTapSdkFrameworkVersionNumber;
 

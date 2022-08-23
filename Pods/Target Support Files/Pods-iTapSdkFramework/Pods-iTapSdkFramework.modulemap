@@ -1,0 +1,6 @@
+framework module Pods_iTapSdkFramework {
+  umbrella header "Pods-iTapSdkFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

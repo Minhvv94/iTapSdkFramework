@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="110" id="KGk-i7-Jjw" customClass="CellFuncView">
+            <rect key="frame" x="0.0" y="0.0" width="623" height="110"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="623" height="110"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fx4-M9-Bwm">
+                        <rect key="frame" x="10" y="10" width="90" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="fx4-M9-Bwm" secondAttribute="height" multiplier="1:1" id="MTT-Cy-E6R"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IconArrow" translatesAutoresizingMaskIntoConstraints="NO" id="IcO-09-0r3" userLabel="Arrow">
+                        <rect key="frame" x="601" y="49" width="12" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="IcO-09-0r3" secondAttribute="height" multiplier="1:1" id="qU6-Jm-PSY"/>
+                            <constraint firstAttribute="height" constant="12" id="z1u-Mo-UYJ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[SỰ KIỆN] Thượng nghị sĩ Mỹ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvD-gE-cwu">
+                        <rect key="frame" x="110" y="44.5" width="232" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoS-Gk-87e">
+                        <rect key="frame" x="347" y="55" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="xoS-Gk-87e" firstAttribute="leading" secondItem="kvD-gE-cwu" secondAttribute="trailing" constant="5" id="7E0-Dz-41z"/>
+                    <constraint firstAttribute="bottom" secondItem="fx4-M9-Bwm" secondAttribute="bottom" constant="10" id="7lo-Jz-7Q4"/>
+                    <constraint firstItem="kvD-gE-cwu" firstAttribute="leading" secondItem="fx4-M9-Bwm" secondAttribute="trailing" constant="10" id="EU8-EC-60d"/>
+                    <constraint firstItem="kvD-gE-cwu" firstAttribute="centerY" secondItem="fx4-M9-Bwm" secondAttribute="centerY" id="MGW-sT-Ks6"/>
+                    <constraint firstItem="IcO-09-0r3" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ng9-rM-F8c"/>
+                    <constraint firstItem="fx4-M9-Bwm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Zdf-Zj-P4T"/>
+                    <constraint firstItem="xoS-Gk-87e" firstAttribute="centerY" secondItem="fx4-M9-Bwm" secondAttribute="centerY" id="fMX-cR-OaG"/>
+                    <constraint firstItem="fx4-M9-Bwm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="npT-UO-TSA"/>
+                    <constraint firstAttribute="trailing" secondItem="IcO-09-0r3" secondAttribute="trailing" constant="10" id="uFG-IR-sUc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="arrow" destination="IcO-09-0r3" id="pHM-cn-5UW"/>
+                <outlet property="icon" destination="fx4-M9-Bwm" id="cRR-H9-xg9"/>
+                <outlet property="text" destination="kvD-gE-cwu" id="neo-yf-Ew3"/>
+                <outlet property="text2" destination="xoS-Gk-87e" id="hpc-Ss-mQ1"/>
+            </connections>
+            <point key="canvasLocation" x="-56" y="113"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="IconArrow" width="7.5" height="12.5"/>
+    </resources>
+</document>

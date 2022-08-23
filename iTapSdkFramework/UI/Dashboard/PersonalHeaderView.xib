@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PersonalHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="593" height="262"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar-user.png" translatesAutoresizingMaskIntoConstraints="NO" id="d8L-vF-Gpr">
+                    <rect key="frame" x="10" y="10" width="89" height="89"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="d8L-vF-Gpr" secondAttribute="height" multiplier="1:1" id="DHr-rD-ZyB"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="27a-5W-mdR" userLabel="Username">
+                    <rect key="frame" x="109" y="42.5" width="294" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blL-Ob-0Y0">
+                    <rect key="frame" x="403" y="37.5" width="180" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="180" id="SVh-vo-bTE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                    <state key="normal" title="Đổi mật khẩu">
+                        <color key="titleColor" red="0.88235294117647056" green="0.24705882352941178" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnChangePwdClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Z23-WS-MdR"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="66G-vG-K5c">
+                    <rect key="frame" x="10" y="109" width="573" height="143"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="brO-ST-9Gj">
+                            <rect key="frame" x="10" y="0.0" width="553" height="143"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zbx-rZ-hAU" userLabel="HomePage">
+                                    <rect key="frame" x="0.0" y="0.0" width="136" height="143"/>
+                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                                    <state key="normal" title="Trang chủ" image="IconHome">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnHomePageClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="GTo-kI-cJu"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3Y-9F-lmX" userLabel="Fanpage">
+                                    <rect key="frame" x="136" y="0.0" width="124" height="143"/>
+                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                                    <state key="normal" title="Fanpage" image="IconFanpage">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnFanPageClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="hcA-Td-jXd"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19B-gG-84X" userLabel="Group">
+                                    <rect key="frame" x="260" y="0.0" width="101.5" height="143"/>
+                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                                    <state key="normal" title="Group" image="IconGroup">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnGroupClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="7lh-wk-kUe"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDs-gG-HCU" userLabel="Chat">
+                                    <rect key="frame" x="361.5" y="0.0" width="86" height="143"/>
+                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                                    <state key="normal" title="Chat" image="IconChat">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnChatClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="r9E-1B-Uy2"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3SI-Z5-ZS7" userLabel="Hotline">
+                                    <rect key="frame" x="447.5" y="0.0" width="105.5" height="143"/>
+                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="14"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="20" maxY="0.0"/>
+                                    <state key="normal" title="Hotline" image="IconHotline">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnHotlineClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ilb-7P-c7L"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="brO-ST-9Gj" firstAttribute="centerY" secondItem="66G-vG-K5c" secondAttribute="centerY" id="BXi-78-GaJ"/>
+                        <constraint firstItem="brO-ST-9Gj" firstAttribute="leading" secondItem="66G-vG-K5c" secondAttribute="leading" constant="10" id="TQi-KX-Gi5"/>
+                        <constraint firstItem="brO-ST-9Gj" firstAttribute="height" secondItem="66G-vG-K5c" secondAttribute="height" id="cdz-Na-mQo"/>
+                        <constraint firstAttribute="trailing" secondItem="brO-ST-9Gj" secondAttribute="trailing" constant="10" id="eUJ-EF-JzQ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="blL-Ob-0Y0" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" constant="-10" id="1Dq-JR-WiM"/>
+                <constraint firstItem="27a-5W-mdR" firstAttribute="leading" secondItem="d8L-vF-Gpr" secondAttribute="trailing" constant="10" id="7T3-f1-bCO"/>
+                <constraint firstItem="blL-Ob-0Y0" firstAttribute="trailing" secondItem="66G-vG-K5c" secondAttribute="trailing" id="ETc-Ja-U5L"/>
+                <constraint firstAttribute="bottom" secondItem="66G-vG-K5c" secondAttribute="bottom" constant="10" id="GwD-tb-boK"/>
+                <constraint firstItem="27a-5W-mdR" firstAttribute="centerY" secondItem="d8L-vF-Gpr" secondAttribute="centerY" id="N8u-SH-1Rj"/>
+                <constraint firstItem="d8L-vF-Gpr" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.34" id="NPl-qO-Kg3"/>
+                <constraint firstItem="d8L-vF-Gpr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="TPh-Hs-I9X"/>
+                <constraint firstItem="66G-vG-K5c" firstAttribute="top" secondItem="d8L-vF-Gpr" secondAttribute="bottom" constant="10" id="agp-DZ-bUs"/>
+                <constraint firstItem="27a-5W-mdR" firstAttribute="trailing" secondItem="blL-Ob-0Y0" secondAttribute="leading" id="gGN-3A-ma8"/>
+                <constraint firstItem="d8L-vF-Gpr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="jqk-pl-q2E"/>
+                <constraint firstItem="66G-vG-K5c" firstAttribute="leading" secondItem="d8L-vF-Gpr" secondAttribute="leading" id="p3f-Rw-JE8"/>
+                <constraint firstItem="blL-Ob-0Y0" firstAttribute="centerY" secondItem="d8L-vF-Gpr" secondAttribute="centerY" id="xA2-Kd-AMt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="avatar" destination="d8L-vF-Gpr" id="k8U-RU-Swx"/>
+                <outlet property="btnChangePwd" destination="blL-Ob-0Y0" id="AnK-lO-mHb"/>
+                <outlet property="btnChat" destination="gDs-gG-HCU" id="mvh-2y-Egr"/>
+                <outlet property="btnGroup" destination="19B-gG-84X" id="B7k-7E-Ztf"/>
+                <outlet property="btnHomePage" destination="Zbx-rZ-hAU" id="Fhv-rp-zji"/>
+                <outlet property="btnHotline" destination="3SI-Z5-ZS7" id="Nso-zg-6Ix"/>
+                <outlet property="btnfanPage" destination="O3Y-9F-lmX" id="lRX-vE-BMT"/>
+                <outlet property="userName" destination="27a-5W-mdR" id="ztU-1d-cze"/>
+            </connections>
+            <point key="canvasLocation" x="-1061" y="-726"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="IconChat" width="28.5" height="27.5"/>
+        <image name="IconFanpage" width="30" height="27"/>
+        <image name="IconGroup" width="30" height="26"/>
+        <image name="IconHome" width="29" height="28"/>
+        <image name="IconHotline" width="27" height="27"/>
+        <image name="avatar-user.png" width="384" height="384"/>
+    </resources>
+</document>

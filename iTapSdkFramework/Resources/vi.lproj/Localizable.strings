@@ -1,0 +1,205 @@
+/* 
+  Localizable.strings
+  VnptSdk
+
+  Created by Tran Trong Cong on 8/6/21.
+  
+*/
+"Đăng nhập" = "Đăng nhập";
+"Chơi ngay" = "Chơi ngay";
+"Quên mật khẩu?" = "Quên mật khẩu?";
+"Đăng ký ID" = "Đăng ký VTVliveID";
+"Tôi đã đọc và đồng ý" = "Tôi đã đọc và đồng ý ";
+"Tên đăng nhập" = "Tên đăng nhập";
+"Mật khẩu" = "Mật khẩu";
+"Điều khoản" = "Điều khoản và Điều kiện";
+"Chơi quá 180 phút một ngày sẽ ảnh hưởng xấu đến sức khoẻ" = "Chơi quá 180 phút một ngày sẽ ảnh hưởng xấu đến sức khỏe!";
+"Đăng ký tài khoản" = "ĐĂNG KÝ TÀI KHOẢN";
+"Điều khoản sử dụng" = "ĐIỀU KHOẢN SỬ DỤNG";
+"Hãy nhập tên đăng nhập!" = "Hãy nhập tên đăng nhập!";
+"Hãy nhập mật khẩu!" = "Hãy nhập mật khẩu!";
+"Tên đăng nhập phải từ 6 đến 30 ký không bao gồm ký tự đặc biệt!" = "Tên đăng nhập phải từ 6 đến 30 ký tự chỉ bao gồm chữ thường, số, dấu gạch dưới và bắt đầu bằng chữ.";
+"Mật khẩu không hợp lệ" = "Mật khẩu từ 6 đến 30 ký tự";
+"Mật khẩu quá ngắn!" = "Mật khẩu quá ngắn";
+"Đăng nhập thất bại" = "Đăng nhập thất bại, vui lòng thử lại!";
+"Đăng ký thất bại" = "Đăng ký thất bại, vui lòng thử lại!";
+"Đồng ý" = "Đồng ý";
+"Huỷ" = "Huỷ";
+"Phiên đăng nhập đã hết hạn" = "Phiên đăng nhập đã hết hạn";
+"Thông báo" = "Thông báo!";
+"Vui lòng chọn đồng ý điều khoản và điều kiện" = "Vui lòng chọn đồng ý về điều khoản và điều kiện";
+/*Đổi mật khẩu*/
+"ĐỔI MẬT KHẨU" = "ĐỔI MẬT KHẨU";
+"Nhập mật khẩu cũ" = "Nhập mật khẩu cũ";
+"Nhập mật khẩu mới" = "Nhập mật khẩu mới";
+/*Cập nhật CMT*/
+"CẬP NHẬT CCCD" = "CẬP NHẬT CCCD/CMT";
+"Nhập số CCCD" = "Nhập số CCCD/CMT";
+"Cập nhật" = "Cập nhật";
+"Số CCCD không đúng, vui lòng thử lại" = "Số CCCD/CMT không đúng định dạng, vui lòng thử lại";
+"Cập nhật thành công" = "Cập nhật thành công";
+/*Cập nhật ngày sinh*/
+"CẬP NHẬT NGÀY SINH" = "CẬP NHẬT NGÀY SINH";
+"Nhập ngày sinh" = "Nhập ngày sinh";
+"Định dạng không đúng, vui lòng thử lại" = "Định dạng không đúng, vui lòng thử lại";
+/*Cá nhân*/
+"Chưa xác minh" = "(Chưa xác minh)";
+"Đã xác minh" = "(Đã xác minh)";
+"Mật khẩu mới không khớp nhau" = "Mật khẩu mới không khớp nhau";
+"Tên đăng nhập hoặc mật khẩu không đúng" = "Tên đăng nhập hoặc mật khẩu không đúng";
+"Bạn đang sử dụng tài khoản khách, hãy chuyển sang tài khoản VtvLive ID"="Bạn đang sử dụng tài khoản khách, hãy chuyển sang tài khoản VTVliveID";
+"Bạn có muốn đăng xuất ?" ="Bạn có muốn đăng xuất ?";
+/*Chuyển đổi tài khoản*/
+
+"CHUYỂN ĐỔI TÀI KHOẢN" = "CHUYỂN ĐỔI TÀI KHOẢN";
+"Mật khẩu không khớp" = "Mật khẩu không khớp";
+"Thao tác thành công" = "Thao tác thành công";
+"Nhập lại mật khẩu" = "Nhập lại mật khẩu";
+/*Cập nhật email*/
+"CẬP NHẬT EMAIL" = "CẬP NHẬT EMAIL";
+"Nhập email" = "Nhập email";
+"Định dạng email không đúng, vui lòng nhập lại" = "Định dạng email không đúng, vui lòng nhập lại";
+"GỬI MÃ XÁC NHẬN" = "GỬI MÃ XÁC NHẬN";
+
+/*Cập nhật số điện thoại*/
+
+"CẬP NHẬT SỐ ĐIỆN THOẠI" = "CẬP NHẬT SỐ ĐIỆN THOẠI";
+"Nhập OTP" = "Nhập mã xác thực";
+"Nhập số điện thoại" = "Nhập số điện thoại";
+"CẬP NHẬT" = "CẬP NHẬT";
+"Nhận mã" = "Nhận mã";
+"Nhận mã sau" = "Nhận mã sau";
+"Số điện thoại không hợp lệ, vui lòng nhập lại"="Số điện thoại không hợp lệ, vui lòng nhập lại";
+/* Code */
+"E_CODE_1000" = "Tên tài khoản đã tồn tại";
+"E_CODE_1001" = "Email đã được sử dụng cho tài khoản khác";
+"E_CODE_1002" = "Không có tài khoản nào được truyền lên";
+"E_CODE_1003" = "Chữ kí không đúng";
+"E_CODE_1004" = "Tên nhóm quyền đã tồn tại";
+"E_CODE_1005" = "Email không hợp lệ";
+"E_CODE_1006" = "Tên nhóm quyền không hợp lệ";
+"E_CODE_1007" = "Tên tài khoản không hợp lệ";
+"E_CODE_1008" = "Mật khẩu cũ không chính xác, thay đổi mật khẩu thất bại";
+"E_CODE_1009" = "Mật khẩu yêu cầu chữ số";
+"E_CODE_1010" = "Yêu cầu mật khẩu có ít nhất 1 chữ thường";
+"E_CODE_1011" = "Yêu cầu mật khẩu không phải chữ và số";
+"E_CODE_1012" = "Mật khẩu yêu cầu ít nhất 1 ký tự đặc biệt";
+"E_CODE_1013" = "Mật khẩu yêu cầu ít nhất 1 chữ hoa";
+"E_CODE_1014" = "Mật khẩu quá ngắn";
+"E_CODE_1015" = "Mật khẩu mới phải khác mật khẩu cũ";
+
+"E_CODE_2000" = "Đăng nhập thất bại. Tên tài khoản hoặc mật khẩu không đúng";
+"E_CODE_2001" = "Tài khoản của bạn chưa được đăng kí trên ứng dụng này";
+"E_CODE_2002" = "Đăng nhập bên ngoài đã được liên kết với tài khoản";
+"E_CODE_2003" = "Tài khoản của bạn bị khóa";
+
+"E_CODE_3000" = "Lấy lại mã token thất bại";
+"E_CODE_3001" = "Mã token không hợp lệ";
+"E_CODE_3002" = "Đổi mã khôi phục không thành công";
+
+"E_CODE_4000" = "Người dùng không tồn tại";
+"E_CODE_4001" = "Thay đổi email thất bại";
+"E_CODE_4002" = "Thay đổi tên tài khoản thất bại";
+"E_CODE_4003" = "Thay đổi thông tin người dùng thất bại";
+"E_CODE_4004" = "Thay đổi mật khẩu thất bại";
+"E_CODE_4005" = "Không phải tài khoản đăng kí nhanh";
+"E_CODE_4006" = "Số điện thoại mới giống số điện thoại đã đăng ký";
+"E_CODE_4007" = "Thay đổi số điện thoại thất bại";
+"E_CODE_4008" = "Người dùng đã có mật khẩu";
+"E_CODE_4009" = "Người dùng đã có nhóm quyền";
+"E_CODE_4010" = "Khóa người dùng chưa được kích hoạt";
+"E_CODE_4011" = "Người dùng không có nhóm quyền";
+"E_CODE_4012" = "Số điện thoại đã được sử dụng";
+
+"E_CODE_5000" = "Tạo mã OTP thất bại";
+"E_CODE_6000" = "Kiểm tra mã OTP thất bại";
+
+"E_CODE_9000" = "Thông tin trong form bị thiếu";
+"E_CODE_9001" = "Lỗi tạm thời";
+"E_CODE_9002" = "Gọi API quá thời gian";
+"E_CODE_9003" = "Lỗi đồng thời";
+
+"E_CODE_9999" = "Lỗi hệ thống";
+
+
+"E_CODE_50" = "Tài khoản không tồn tại";
+"E_CODE_61" = "Hệ thống đang bảo trì";
+"E_CODE_75" = "Chưa xác thực tài khoản";
+"E_CODE_76" = "Chưa kích hoạt mail";
+"E_CODE_77" = "Chưa kích hoạt điện thoại";
+"E_CODE_78" = "Bạn không đủ tuổi sử dụng dịch vụ";
+"E_CODE_79" = "Không tìm thấy dữ liệu";
+"E_CODE_80" = "Lỗi ghi dữ liệu";
+"E_CODE_81" = "Tham số truyền chưa đúng";
+"E_CODE_82" = "Dịch vụ chưa hỗ trợ";
+"E_CODE_83" = "Sai chữ ký";
+"E_CODE_84" = "Không có quyền truy cập";
+"E_CODE_85" = "Phiên đăng nhập không hợp lệ, vui lòng đăng nhập lại";
+"E_CODE_86" = "Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại";
+"E_CODE_87" = "Chưa đăng nhập";
+"E_CODE_89" = "Lỗi hệ thống. Vui lòng thử lại sau";
+"E_CODE_90" = "Lỗi hệ thống. Vui lòng thử lại sau";
+"E_CODE_91" = "Lỗi hệ thống. Vui lòng thử lại sau";
+"E_CODE_99" = "Lỗi không xác định.Vui lòng thử lại sau";
+"E_CODE_98" = "Tài khoản của bạn đã đăng nhập trên thiết bị khác, vui lòng đăng nhập lại";
+
+//"E_CODE_100" = "Tài khoản đã tồn tại";
+"E_CODE_101" = "Tài khoản không tồn tại";
+"E_CODE_103" = "Tài khoản đã kích hoạt số điện thoại";
+"E_CODE_104" = "Tài khoản đang đợi kích hoạt số điện thoại";
+
+"E_CODE_111"="Tên tài khoản không hợp lệ. Tên tài khoản từ 6 đến 30 kí tự và không được chứa ký tự đặc biệt hoặc viết hoa";
+
+"E_CODE_200" = "Đã có tài khoản đăng kí số điện thoại này. Vui lòng nhập số điện thoại khác";
+"E_CODE_201" = "Số điện thoại không tồn tại";
+"E_CODE_208" = "Số điện thoại không đúng hoặc Sai định dạng số điện thoại";
+"E_CODE_210" = "Số điện thoại đã đăng ký quá số tài khoản";
+"E_CODE_211" = "Sai mã kích hoạt, hoặc mã kích hoạt đã quá hạn";
+"E_CODE_213" = "Mật khẩu không khớp";
+"E_CODE_214" = "Không thể đổi mật khẩu tài khoản liên kết";
+"E_CODE_300" = "Mã kích hoạt chính xác";
+"E_CODE_301" = "Mã kích hoạt không chính xác. Vui lòng kiểm tra hoặc thử lại";
+"E_CODE_401" = "Đã có tài khoản sử dụng Email này";
+"E_CODE_402" = "Email không đúng định dạng. Hoặc chưa đăng ký";
+"E_CODE_403" = "Tài khoản chưa kích hoạt email";
+"E_CODE_404" = "Tài khoản đã kích hoạt email";
+"E_CODE_405" = "Hệ thống đã gửi mã kích hoạt qua email thành công. Vui lòng làm theo hướng dẫn trong email bạn vừa nhập để xác nhận tài khoản này";
+"E_CODE_406" = "Hệ thống chưa gửi được mã kích hoạt qua email. Vui lòng thử lại";
+"E_CODE_407" = "Email không hợp lệ";
+
+"E_CODE_500" = "Sai mật khẩu";
+"E_CODE_501" = "Mật khẩu không hợp lệ. Mật khẩu từ 6 đến 30 kí tự";
+"E_CODE_22" = "Mã SALT không tồn tại";
+
+"Không có dữ liệu" = "Không có dữ liệu";
+"Đăng xuất" = "Đăng xuất";
+"(trống)" = "(trống)";
+"Trang chủ" = "Trang chủ";
+"Fanpage" = "Fanpage";
+"Hotline" = "Hotline";
+"Group" = "Group";
+"Chat" = "Chat";
+"Bạn cần đăng nhập để thanh toán" = "Please login to do this action";
+"Đã ghi nhận thanh toán lên hệ thống" = "Đã ghi nhận thanh toán lên hệ thống";
+"Bạn đã bị khóa thanh toán IAP" = "Bạn đã bị khóa thanh toán IAP";
+"Lỗi không xác định" = "Lỗi không xác định";
+"SPLASH_TIME_OUT"="Có lỗi trong quá trình kết nối đến server";
+"SPLASH_NO_INTERNET"= "Kiểm tra lại kết nối mạng";
+"txt_ChangePwd"= "Đổi mật khẩu";
+"txt_ConvertAcct"= "Chuyển đổi tài khoản";
+"Mật khẩu mới phải khác mật khẩu cũ" = "Mật khẩu mới phải khác mật khẩu cũ";
+"Đăng nhập bằng tài khoản" = "ĐĂNG NHẬP BẰNG TÀI KHOẢN";
+"Không có sản phẩm" = "Không tìm thấy sản phẩm. Vui lòng thử lại!";
+"Đang khởi tạo giao dịch" = "Đang khởi tạo giao dịch";
+"Đang xác thực giao dịch" = "Đang xác thực giao dịch";
+"Không tìm thấy hóa đơn" = "Không tìm thấy hóa đơn";
+"Có lỗi trong quá trình xác nhận thanh toán" = "Có lỗi trong quá trình xác nhận thanh toán";
+"Thử lại" = "Thử lại";
+"Vô hiệu hóa TK" = "Vô hiệu hóa TK";
+"Xác thực xóa tài khoản" = "Toàn bộ dữ liệu của bạn sẽ bị xóa sau 15 ngày.\nXác nhận vô hiệu hóa tài khoản?";
+"Ghi nhớ tài khoản" = "Ghi nhớ tài khoản";
+"Chào mừng" = "Chào mừng: ";
+"Deactive_1"= "1. Sau khi chọn vô hiệu, tài khoản sẽ được chuyển vào trạng thái lưu trữ trong 15 ngày.";
+"Deactive_2"= "2. Trong 15 ngày tiếp theo từ ngày thao tác, nếu tiếp tục đăng nhập vào dịch vụ sẽ hủy tiến độ.";
+"Deactive_3"= "3. Qua ngày 15 nếu không có thao tác đăng nhập vào trò chơi, tài khoản của bạn sẽ bị vô hiệu hóa vĩnh viễn.";
+
