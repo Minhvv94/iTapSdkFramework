@@ -8,13 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C1D27B2928B48A9100F1ECB0 /* iTapSdkFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D27B2828B48A9100F1ECB0 /* iTapSdkFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1D27B3428B48C6B00F1ECB0 /* TestSdk.swift in Headers */ = {isa = PBXBuildFile; fileRef = C1D27B3328B48C6B00F1ECB0 /* TestSdk.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C1D27B2528B48A9100F1ECB0 /* iTapSdkFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iTapSdkFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D27B2828B48A9100F1ECB0 /* iTapSdkFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTapSdkFramework.h; sourceTree = "<group>"; };
-		C1D27B3328B48C6B00F1ECB0 /* TestSdk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSdk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				C1D27B2828B48A9100F1ECB0 /* iTapSdkFramework.h */,
-				C1D27B3328B48C6B00F1ECB0 /* TestSdk.swift */,
 			);
 			path = iTapSdkFramework;
 			sourceTree = "<group>";
@@ -61,7 +58,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1D27B2928B48A9100F1ECB0 /* iTapSdkFramework.h in Headers */,
-				C1D27B3428B48C6B00F1ECB0 /* TestSdk.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

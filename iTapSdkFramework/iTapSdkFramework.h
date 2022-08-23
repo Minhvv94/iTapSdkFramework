@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "TestSdk-Swift.h"
 
 //! Project version number for iTapSdkFramework.
 FOUNDATION_EXPORT double iTapSdkFrameworkVersionNumber;
